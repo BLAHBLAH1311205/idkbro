@@ -25,7 +25,7 @@ public class CommandStaffItem extends Item {
 	public InteractionResult use(Level level, Player player, InteractionHand hand) {
 		if (level instanceof ServerLevel serverLevel && player instanceof ServerPlayer serverPlayer) {
 			if (!ManaSystem.spend(serverPlayer, MANA_COST)) {
-				serverPlayer.displayClientMessage(Component.literal("Not enough mana (" + ManaSystem.get(serverPlayer) + "/" + ManaSystem.MAX + ")"), true);
+				serverPlayer.sendSystemMessage(Component.literal("Not enough mana (" + ManaSystem.get(serverPlayer) + "/" + ManaSystem.MAX + ")"), true);
 				return InteractionResult.FAIL;
 			}
 			Vec3 start = player.getEyePosition();
@@ -33,7 +33,7 @@ public class CommandStaffItem extends Item {
 			BlockHitResult hit = level.clip(new ClipContext(start, end, ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, player));
 			SetBonusHandler.spawnLightning(serverLevel, hit.getLocation(), false);
 			player.getCooldowns().addCooldown(player.getItemInHand(hand), COOLDOWN_TICKS);
-			serverPlayer.displayClientMessage(Component.literal("Mana " + ManaSystem.get(serverPlayer) + "/" + ManaSystem.MAX), true);
+			serverPlayer.sendSystemMessage(Component.literal("Mana " + ManaSystem.get(serverPlayer) + "/" + ManaSystem.MAX), true);
 		}
 		return InteractionResult.SUCCESS;
 	}
