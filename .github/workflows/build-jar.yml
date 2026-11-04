@@ -24,7 +24,7 @@ jobs:
         run: sed -i -E 's/^(archives?_base_name)[[:space:]]*=.*/\1 = ULTIMATE_GOD_EXPANSION/' gradle.properties
 
       - name: Build
-        run: ./gradlew build --stacktrace
+        run: ./gradlew build
 
       - uses: actions/upload-artifact@v4
         with:
