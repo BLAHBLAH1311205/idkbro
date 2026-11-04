@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cmdgod:command"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cmdgod:command"
+      }
+    ]
+  }
+}

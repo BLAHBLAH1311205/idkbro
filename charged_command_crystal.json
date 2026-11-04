@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cmdgod:command_fragment",
+    "cmdgod:command_fragment",
+    "cmdgod:command_fragment",
+    "cmdgod:command_fragment",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "cmdgod:charged_command_crystal",
+    "count": 1
+  }
+}

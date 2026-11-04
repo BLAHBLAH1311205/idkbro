@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cmdgod",
+  "version": "${version}",
+  "name": "Ultimate God Expansion",
+  "description": "Command Block armor set with Command God Mode, tools, a staff with mana, and Command Block Ore.",
+  "authors": ["You"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.cmdgod.CommandGodMod"]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

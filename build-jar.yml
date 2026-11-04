@@ -1,0 +1,32 @@
+name: Build jar
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      # Web uploads to GitHub drop the executable bit, so set it here.
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
+      # Name the output jar ULTIMATE_GOD_EXPANSION-<version>.jar
+      - name: Set jar name
+        run: sed -i -E 's/^(archives?_base_name)[[:space:]]*=.*/\1 = ULTIMATE_GOD_EXPANSION/' gradle.properties
+
+      - name: Build
+        run: ./gradlew build --stacktrace
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ULTIMATE_GOD_EXPANSION-jar
+          path: build/libs/*.jar

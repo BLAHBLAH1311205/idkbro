@@ -1,0 +1,14 @@
+{
+  "item.cmdgod.command_helmet": "Command Block Helmet",
+  "item.cmdgod.command_chestplate": "Command Block Chestplate",
+  "item.cmdgod.command_leggings": "Command Block Leggings",
+  "item.cmdgod.command_boots": "Command Block Boots",
+  "item.cmdgod.command_sword": "Command Block Sword",
+  "item.cmdgod.command_pickaxe": "Command Block Pickaxe",
+  "item.cmdgod.command_axe": "Command Block Axe",
+  "item.cmdgod.command_staff": "Command Block Staff",
+  "item.cmdgod.command_fragment": "Command Block Fragment",
+  "item.cmdgod.charged_command_crystal": "Charged Command Crystal",
+  "item.cmdgod.command_core": "Command Core",
+  "block.cmdgod.command_ore": "Command Block Ore"
+}
