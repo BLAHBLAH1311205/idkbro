@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cmdgod:block/command_ore"
+    }
+  }
+}
