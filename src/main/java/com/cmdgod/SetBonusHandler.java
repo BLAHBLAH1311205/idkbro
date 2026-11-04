@@ -129,7 +129,7 @@ public final class SetBonusHandler {
 
 		player.addEffect(effect(MobEffects.STRENGTH, GOD_DURATION_TICKS, 2));
 		player.addEffect(effect(MobEffects.REGENERATION, GOD_DURATION_TICKS, 3));
-		player.displayClientMessage(Component.literal("§6[COMMAND GOD MODE]§r activated"), true);
+		player.sendSystemMessage(Component.literal("§6[COMMAND GOD MODE]§r activated"), true);
 
 		spawnLightning(level, player.position(), true);
 		level.playSound(null, player.blockPosition(), SoundEvents.LIGHTNING_BOLT_THUNDER, SoundSource.PLAYERS, 1.0F, 1.0F);
