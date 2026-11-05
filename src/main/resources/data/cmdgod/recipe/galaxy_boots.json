@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "cmdgod:galaxy_shard"
+  },
+  "result": {
+    "id": "cmdgod:galaxy_boots",
+    "count": 1
+  }
+}

@@ -1,5 +1,14 @@
 {
   "values": [
-    "cmdgod:command_axe"
+    "cmdgod:command_axe",
+    "cmdgod:void_axe",
+    "cmdgod:divine_axe",
+    "cmdgod:galaxy_axe",
+    "cmdgod:infinity_axe",
+    "cmdgod:celestial_axe",
+    "cmdgod:dragon_god_axe",
+    "cmdgod:nether_emperor_axe",
+    "cmdgod:shadow_axe",
+    "cmdgod:titan_axe"
   ]
 }

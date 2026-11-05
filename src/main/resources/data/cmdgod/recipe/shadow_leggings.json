@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "cmdgod:shadow_shard"
+  },
+  "result": {
+    "id": "cmdgod:shadow_leggings",
+    "count": 1
+  }
+}

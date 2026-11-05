@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cmdgod:nether_emperor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cmdgod:nether_emperor"
+      }
+    ]
+  }
+}

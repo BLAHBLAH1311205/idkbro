@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SS",
+    "ST",
+    " T"
+  ],
+  "key": {
+    "S": "cmdgod:void_shard",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "cmdgod:void_axe",
+    "count": 1
+  }
+}

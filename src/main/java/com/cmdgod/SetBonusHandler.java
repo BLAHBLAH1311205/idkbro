@@ -43,6 +43,9 @@ public final class SetBonusHandler {
 				if (until != null && now < until) {
 					return false;
 				}
+				if (TierBonus.fullSet(player, "infinity") && !source.is(DamageTypeTags.BYPASSES_INVULNERABILITY)) {
+					return false;
+				}
 				if (source.is(DamageTypeTags.IS_EXPLOSION) && wears(player, EquipmentSlot.CHEST, ModItems.COMMAND_CHESTPLATE)) {
 					return false;
 				}
@@ -79,6 +82,8 @@ public final class SetBonusHandler {
 		boolean chest = wears(player, EquipmentSlot.CHEST, ModItems.COMMAND_CHESTPLATE);
 		boolean legs = wears(player, EquipmentSlot.LEGS, ModItems.COMMAND_LEGGINGS);
 		boolean feet = wears(player, EquipmentSlot.FEET, ModItems.COMMAND_BOOTS);
+
+		TierBonus.apply(player);
 
 		if (serverTick % 10 == 0) {
 			ManaSystem.regen(player, 2);

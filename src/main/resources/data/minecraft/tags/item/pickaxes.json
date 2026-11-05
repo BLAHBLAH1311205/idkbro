@@ -1,5 +1,14 @@
 {
   "values": [
-    "cmdgod:command_pickaxe"
+    "cmdgod:command_pickaxe",
+    "cmdgod:void_pickaxe",
+    "cmdgod:divine_pickaxe",
+    "cmdgod:galaxy_pickaxe",
+    "cmdgod:infinity_pickaxe",
+    "cmdgod:celestial_pickaxe",
+    "cmdgod:dragon_god_pickaxe",
+    "cmdgod:nether_emperor_pickaxe",
+    "cmdgod:shadow_pickaxe",
+    "cmdgod:titan_pickaxe"
   ]
 }

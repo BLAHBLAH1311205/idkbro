@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "S S"
+  ],
+  "key": {
+    "S": "cmdgod:galaxy_shard"
+  },
+  "result": {
+    "id": "cmdgod:galaxy_helmet",
+    "count": 1
+  }
+}

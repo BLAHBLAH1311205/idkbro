@@ -1,5 +1,14 @@
 {
   "values": [
-    "cmdgod:command_ore"
+    "cmdgod:command_ore",
+    "cmdgod:void_ore",
+    "cmdgod:divine_ore",
+    "cmdgod:galaxy_ore",
+    "cmdgod:infinity_ore",
+    "cmdgod:celestial_ore",
+    "cmdgod:dragon_god_ore",
+    "cmdgod:nether_emperor_ore",
+    "cmdgod:shadow_ore",
+    "cmdgod:titan_ore"
   ]
 }

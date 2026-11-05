@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cmdgod:infinity"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cmdgod:infinity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cmdgod:item/dragon_god_leggings"
+  }
+}

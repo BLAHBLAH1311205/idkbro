@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cmdgod:shadow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cmdgod:shadow"
+      }
+    ]
+  }
+}

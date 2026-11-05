@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S",
+    "S",
+    "T"
+  ],
+  "key": {
+    "S": "cmdgod:shadow_shard",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "cmdgod:shadow_sword",
+    "count": 1
+  }
+}

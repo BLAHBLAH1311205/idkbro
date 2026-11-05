@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S",
+    "S",
+    "T"
+  ],
+  "key": {
+    "S": "cmdgod:nether_emperor_shard",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "cmdgod:nether_emperor_sword",
+    "count": 1
+  }
+}

@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public final class ModBlocks {
-	private static <T extends Block> T registerBlock(String name, Function<BlockBehaviour.Properties, T> factory,
+	public static <T extends Block> T registerBlock(String name, Function<BlockBehaviour.Properties, T> factory,
 			BlockBehaviour.Properties props) {
 		ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, CommandGodMod.id(name));
 		T block = factory.apply(props.setId(blockKey));

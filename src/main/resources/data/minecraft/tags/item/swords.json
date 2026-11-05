@@ -1,5 +1,27 @@
 {
   "values": [
-    "cmdgod:command_sword"
+    "cmdgod:command_sword",
+    "cmdgod:void_sword",
+    "cmdgod:divine_sword",
+    "cmdgod:galaxy_sword",
+    "cmdgod:infinity_sword",
+    "cmdgod:celestial_sword",
+    "cmdgod:dragon_god_sword",
+    "cmdgod:nether_emperor_sword",
+    "cmdgod:shadow_sword",
+    "cmdgod:titan_sword",
+    "cmdgod:excalibur_prime",
+    "cmdgod:void_reaper",
+    "cmdgod:world_ender",
+    "cmdgod:infinity_blade",
+    "cmdgod:galaxy_hammer",
+    "cmdgod:black_hole_staff",
+    "cmdgod:reality_destroyer",
+    "cmdgod:universe_breaker",
+    "cmdgod:cosmic_katana",
+    "cmdgod:dragon_slayer",
+    "cmdgod:thunder_gods_hammer",
+    "cmdgod:soul_destroyer",
+    "cmdgod:celestial_blade"
   ]
 }

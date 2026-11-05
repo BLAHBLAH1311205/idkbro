@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "S": "cmdgod:divine_shard",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "cmdgod:divine_pickaxe",
+    "count": 1
+  }
+}

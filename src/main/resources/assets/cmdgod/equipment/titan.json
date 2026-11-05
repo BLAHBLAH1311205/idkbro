@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cmdgod:titan"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cmdgod:titan"
+      }
+    ]
+  }
+}

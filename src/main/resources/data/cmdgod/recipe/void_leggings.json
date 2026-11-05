@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "cmdgod:void_shard"
+  },
+  "result": {
+    "id": "cmdgod:void_leggings",
+    "count": 1
+  }
+}

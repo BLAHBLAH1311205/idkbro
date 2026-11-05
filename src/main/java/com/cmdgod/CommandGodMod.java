@@ -9,7 +9,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.levelgen.GenerationStep;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class CommandGodMod implements ModInitializer {
 	public static final String MOD_ID = "cmdgod";
@@ -22,9 +21,10 @@ public class CommandGodMod implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.initialize();
 		ModItems.initialize();
+		TierContent.initialize();
 		SetBonusHandler.register();
+		WeaponAbilities.register();
 
-		// Ore generation: placed feature JSON lives in data/cmdgod/worldgen/placed_feature
 		BiomeModifications.addFeature(
 				BiomeSelectors.foundInOverworld(),
 				GenerationStep.Decoration.UNDERGROUND_ORES,
