@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GOG",
+    "O O",
+    "GOG"
+  ],
+  "key": {
+    "G": "cmdgod:dragon_god_shard",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "cmdgod:dragon_realm_frame",
+    "count": 4
+  }
+}

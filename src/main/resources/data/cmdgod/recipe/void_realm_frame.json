@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GOG",
+    "O O",
+    "GOG"
+  ],
+  "key": {
+    "G": "cmdgod:void_shard",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "cmdgod:void_realm_frame",
+    "count": 4
+  }
+}

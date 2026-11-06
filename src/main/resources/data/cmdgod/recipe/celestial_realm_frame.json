@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GOG",
+    "O O",
+    "GOG"
+  ],
+  "key": {
+    "G": "cmdgod:celestial_shard",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "cmdgod:celestial_realm_frame",
+    "count": 4
+  }
+}

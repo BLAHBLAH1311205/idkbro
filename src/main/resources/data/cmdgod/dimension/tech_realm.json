@@ -1,0 +1,26 @@
+{
+  "type": "cmdgod:tech_realm_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "cmdgod:tech_realm",
+      "features": true,
+      "lakes": false,
+      "structure_overrides": [],
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 58
+        },
+        {
+          "block": "minecraft:iron_block",
+          "height": 1
+        }
+      ]
+    }
+  }
+}

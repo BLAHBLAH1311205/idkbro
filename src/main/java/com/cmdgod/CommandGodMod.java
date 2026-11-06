@@ -22,7 +22,9 @@ public class CommandGodMod implements ModInitializer {
 		ModBlocks.initialize();
 		ModItems.initialize();
 		TierContent.initialize();
+		RealmContent.initialize();
 		SetBonusHandler.register();
+		RealmPortals.register();
 		WeaponAbilities.register();
 
 		BiomeModifications.addFeature(

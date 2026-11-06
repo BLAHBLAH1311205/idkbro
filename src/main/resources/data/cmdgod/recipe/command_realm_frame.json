@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GOG",
+    "O O",
+    "GOG"
+  ],
+  "key": {
+    "G": "cmdgod:charged_command_crystal",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "cmdgod:command_realm_frame",
+    "count": 4
+  }
+}

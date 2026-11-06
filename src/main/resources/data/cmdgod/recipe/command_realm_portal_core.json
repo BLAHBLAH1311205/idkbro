@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "D",
+    "G"
+  ],
+  "key": {
+    "G": "cmdgod:charged_command_crystal",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "cmdgod:command_realm_portal_core",
+    "count": 1
+  }
+}

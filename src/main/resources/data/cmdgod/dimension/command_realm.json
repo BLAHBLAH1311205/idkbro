@@ -1,0 +1,11 @@
+{
+  "type": "cmdgod:command_realm_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "cmdgod:command_realm"
+    }
+  }
+}

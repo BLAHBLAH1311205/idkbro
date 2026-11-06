@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "D",
+    "G"
+  ],
+  "key": {
+    "G": "cmdgod:nether_emperor_shard",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "cmdgod:infernal_realm_portal_core",
+    "count": 1
+  }
+}

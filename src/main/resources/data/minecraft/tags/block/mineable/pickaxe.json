@@ -1,14 +1,22 @@
 {
   "values": [
-    "cmdgod:command_ore",
-    "cmdgod:void_ore",
-    "cmdgod:divine_ore",
-    "cmdgod:galaxy_ore",
-    "cmdgod:infinity_ore",
+    "cmdgod:ancient_realm_frame",
     "cmdgod:celestial_ore",
+    "cmdgod:celestial_realm_frame",
+    "cmdgod:command_ore",
+    "cmdgod:command_realm_frame",
+    "cmdgod:divine_ore",
     "cmdgod:dragon_god_ore",
+    "cmdgod:dragon_realm_frame",
+    "cmdgod:galaxy_ore",
+    "cmdgod:infernal_realm_frame",
+    "cmdgod:infinity_ore",
     "cmdgod:nether_emperor_ore",
+    "cmdgod:nightmare_realm_frame",
     "cmdgod:shadow_ore",
-    "cmdgod:titan_ore"
+    "cmdgod:tech_realm_frame",
+    "cmdgod:titan_ore",
+    "cmdgod:void_ore",
+    "cmdgod:void_realm_frame"
   ]
 }

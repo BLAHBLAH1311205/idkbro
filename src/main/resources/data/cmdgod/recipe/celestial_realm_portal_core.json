@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "D",
+    "G"
+  ],
+  "key": {
+    "G": "cmdgod:celestial_shard",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "cmdgod:celestial_realm_portal_core",
+    "count": 1
+  }
+}

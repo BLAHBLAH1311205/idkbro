@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GOG",
+    "O O",
+    "GOG"
+  ],
+  "key": {
+    "G": "cmdgod:galaxy_shard",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "cmdgod:tech_realm_frame",
+    "count": 4
+  }
+}
